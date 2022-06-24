@@ -1,0 +1,69 @@
+body {
+  font-size: 1.75em;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/** HEADER **/
+.navbar-default {
+  background-color: lightgray;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar {
+  border-radius: 0px;
+  border-bottom: solid 2px;
+}
+
+h1 {
+  margin: 10px 0px 0 20px;
+  font-size: 1.45em;
+  font-weight: bold;
+}
+
+/** END HEADER **/
+
+
+/** MAIN CONTENT **/
+#our-menu {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#stuffincontent {
+  height: 1000px;
+  background-color: lightgray;
+  overflow: hidden;
+  padding: 15px;
+}
+
+#chicken {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+/** ENDMAIN CONTENT **/
+
+
+/********** Desktop/md only **********/
+@media (min-width: 992px) {
+}
+
+/********** Tablet/sm only **********/
+@media (min-width: 768px) {
+}
+
+/********** Mobile/xs only **********/
+@media (max-width: 767px) {
+}
